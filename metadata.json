@@ -1,6 +1,0 @@
-{
-  "name": "Dadao",
-  "description": "专业软件服务与 AI 工具咨询平台，提供一站式软件咨询、AI工具推荐和企业技术支持，帮助企业与IT从业者提升效能。",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
