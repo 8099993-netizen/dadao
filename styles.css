@@ -160,3 +160,10 @@ footer{max-width:1240px}
 }
 
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* Typography alignment fix: keep key Chinese headings on intentional lines. */
+@media(min-width:901px){
+  .hero h1{font-size:clamp(46px,4.25vw,62px);line-height:1.08}
+  .hero h1 em{white-space:nowrap}
+  .faq .section-heading h2{max-width:none;font-size:42px;white-space:nowrap}
+}
